@@ -111,7 +111,7 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
-  color: #000000;
+  color: #000;
 }
 
 .search-input input::placeholder {
@@ -128,7 +128,7 @@ ul {
   height: 50px;
   border: none;
   background-color: #0065fc;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
   border-radius: 0 10px 10px 0;
 }
@@ -199,7 +199,7 @@ label.filter-label:hover {
 
 label.filter-label:hover >span.filter-item-icon {
   background-color: #DEEBFF;
-  color: #0065FC;
+  color: #0065fc;
 }
 
 input.filter-checkbox:checked+ label.filter-label>span.filter-item-icon {
@@ -338,7 +338,7 @@ input.filter-checkbox:checked+label.filter-label {
 }
 
 .card-2-one {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 15px;
   margin: 5px;
   overflow: hidden;
@@ -359,12 +359,12 @@ input.filter-checkbox:checked+label.filter-label {
 }
 
 .card-2-two {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 15px;
   margin: 5px;
   overflow: hidden;
   border: 1px solid #f2f2f2;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
 }
 
 .type-2 {
@@ -397,6 +397,7 @@ input.filter-checkbox:checked+label.filter-label {
 
 .stars {
   margin: 5px 0;
+  color: #0065fc;
 }
 
 .grey {
@@ -479,10 +480,6 @@ input.filter-checkbox:checked+label.filter-label {
 .footer ul li a {
   text-decoration: none;
   color: initial;
-}
-
-.stars {
-  color: #0065fc;
 }
 
 .stars-Pop {
@@ -618,7 +615,7 @@ input.filter-checkbox:checked+label.filter-label {
   }
   .menu ul li a {
     flex-grow: 1;
-    border-bottom: 3px solid #DCDCDC;
+    border-bottom: 3px solid #dcdcdc;
   }
 }
 
