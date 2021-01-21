@@ -177,14 +177,14 @@ input.filter-checkbox {
 }
 
 .filter-item-icon {
-  color: #ffffff;
+  color: #fff;
   height: 40px;
   width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #0065FC;
+  background-color: #0065fc;
   transition: all 0.1s linear;
 }
 
@@ -198,18 +198,18 @@ label.filter-label:hover {
 }
 
 label.filter-label:hover >span.filter-item-icon {
-  background-color: #DEEBFF;
+  background-color: #deebff;
   color: #0065fc;
 }
 
 input.filter-checkbox:checked+ label.filter-label>span.filter-item-icon {
-  background-color: #0065FC;
-  color: #ffffff;
+  background-color: #0065fc;
+  color: #fff;
 }
 
 input.filter-checkbox:checked+label.filter-label {
-  background-color: #0065FC;
-  color: #ffffff;
+  background-color: #0065fc;
+  color: #fff;
 }
 
 .info-result {
@@ -343,7 +343,7 @@ input.filter-checkbox:checked+label.filter-label {
   margin: 5px;
   overflow: hidden;
   border: 1px solid#f2f2f2;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
 }
 
 .card-2-one img {
