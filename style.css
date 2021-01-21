@@ -86,7 +86,7 @@ ul {
   justify-content: center;
 }
 
-.fa-map-marker-alt:before {
+.fa-map-marker-alt::before {
   color: black;
 }
 
@@ -193,16 +193,16 @@ input.filter-checkbox {
 }
 
 label.filter-label:hover {
-  color: #0065FC;
-  background-color: #DEEBFF;
+  color: #0065fc;
+  background-color: #deebff;
 }
 
-label.filter-label:hover>span.filter-item-icon {
+label.filter-label:hover >span.filter-item-icon {
   background-color: #DEEBFF;
   color: #0065FC;
 }
 
-input.filter-checkbox:checked+label.filter-label>span.filter-item-icon {
+input.filter-checkbox:checked+ label.filter-label>span.filter-item-icon {
   background-color: #0065FC;
   color: #ffffff;
 }
@@ -308,8 +308,8 @@ input.filter-checkbox:checked+label.filter-label {
 }
 
 .card {
-  background-color: #ffffff;
-  border: 5px solid #ffffff;
+  background-color: #fff;
+  border: 5px solid #fff;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #ffffff;
