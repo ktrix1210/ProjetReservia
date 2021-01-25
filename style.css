@@ -133,7 +133,7 @@ ul {
   border-radius: 0 10px 10px 0;
 }
 
-.fa-search:before {
+.fa-search::before {
   display: none;
 }
 
@@ -240,7 +240,7 @@ input.filter-checkbox:checked + label.filter-label {
   margin-left: 10px;
 }
 
-.fa-info:before {
+.fa-info::before {
   padding-left: center;
   display: flex;
   align-items: center;
@@ -271,7 +271,7 @@ input.filter-checkbox:checked + label.filter-label {
   font-size: x-large;
 }
 
-.fa-chart-line:before {
+.fa-chart-line::before {
   color: black;
 }
 
