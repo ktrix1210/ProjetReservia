@@ -8,15 +8,15 @@ ul {
   padding: 0;
 }
 
-header .line {
-  justify-content: space-between;
-}
-
 .line {
   display: flex;
   flex-direction: row;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+header .line {
+  justify-content: space-between;
 }
 
 .logo {
