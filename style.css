@@ -8,6 +8,10 @@ ul {
   padding: 0;
 }
 
+header .line {
+  justify-content: space-between;
+}
+
 .line {
   display: flex;
   flex-direction: row;
@@ -44,7 +48,7 @@ ul {
   color: black;
 }
 
-.menu ul li a.active {
+.menu ul li.active {
   border-top: 2px solid #0065fc;
   color: #0065fc;
   font-weight: 600;
@@ -623,7 +627,7 @@ input.filter-checkbox:checked + label.filter-label {
     align-items: center;
   }
 
-  .menu ul li a.active {
+  .menu ul li.active {
     flex-grow: 1;
     border-bottom: 2px solid #0065fc;
     color: #0065fc;
