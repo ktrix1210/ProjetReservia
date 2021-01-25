@@ -514,7 +514,7 @@ input.filter-checkbox:checked + label.filter-label {
     margin-left: 3%;
     margin-right: 3%;
   }
-  
+
   .line-title {
     margin-left: 5%;
   }
@@ -643,7 +643,7 @@ input.filter-checkbox:checked + label.filter-label {
     display: flex;
     padding-left: 20px;
     margin-top: 35px;
-}
+  }
   
   div.footer-item ul li {
     width: 100%;
