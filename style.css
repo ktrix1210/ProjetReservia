@@ -533,6 +533,10 @@ input.filter-checkbox:checked + label.filter-label {
     padding: 35px 20px;
   }
 
+  .filter-item label.filter-label {
+    margin: 0;
+  }
+
   .line {
     margin-left: 5%;
     margin-right: 5%;
