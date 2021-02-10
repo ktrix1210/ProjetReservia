@@ -624,6 +624,21 @@ input.filter-checkbox:checked + label.filter-label {
     display: none;
   }
 
+  .respons-big.submit {
+    display: none;
+  }
+
+  .fa-search::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065fc;
+    color: #fff;
+    width: 3em;
+    height: 3em;
+    border-radius: 10px 10px 10px 10px;
+  }
+
   .signup-icon {
     display: block;
     color: #0065fc;
