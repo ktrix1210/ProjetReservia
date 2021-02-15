@@ -570,6 +570,7 @@ input.filter-checkbox:checked + label.filter-label {
 
   .footer-item {
     width: 100%;
+    padding-right: 0;
   }
 
   .footer {
