@@ -588,7 +588,7 @@ input.filter-checkbox:checked + label.filter-label {
     background-color: #fff;
   }
 
-  #result >.line {
+  #result > .line {
     flex-direction: column-reverse;
   }
 
@@ -665,10 +665,10 @@ input.filter-checkbox:checked + label.filter-label {
     border-top: none;
   }
 
-.footer-item {
-  display: flex;
-  padding-left: 20px;
-  margin-top: 35px;
+  .footer-item {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 35px;
 }
 
 div.footer-item ul li {
