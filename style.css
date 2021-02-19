@@ -673,7 +673,7 @@ input.filter-checkbox:checked + label.filter-label {
 
   div.footer-item ul li {
     width: 100%;
-}
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -711,7 +711,6 @@ input.filter-checkbox:checked + label.filter-label {
     margin-left: 10px;
   }
 }
-
 
 @media only screen and (max-width: 365px) {
   .card {
