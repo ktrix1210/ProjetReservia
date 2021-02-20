@@ -15,8 +15,8 @@ ul {
 .line {
   display: flex;
   flex-direction: row;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 header .line {
@@ -29,20 +29,24 @@ header .line {
   justify-content: flex-start;
 }
 
-.menu {
-  display: flex;
-  width: max-content;
-  justify-content: flex-end;
-}
-
 .menu ul {
+  display: flex;
   list-style: none;
 }
 
 .menu ul li {
   display: flex;
   flex-direction: row;
-  float: left;
+}
+
+.menu ul li.logo-container {
+  width: 100%;
+}
+
+.menu ul li.active {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+  font-weight: 600;
 }
 
 .menu ul li a {
@@ -52,10 +56,9 @@ header .line {
   color: black;
 }
 
-.menu ul li.active {
-  border-top: 2px solid #0065fc;
+.menu ul li a.home {
   color: #0065fc;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .menu ul li a.signup {
@@ -242,6 +245,7 @@ input.filter-checkbox:checked + label.filter-label {
   border: 2px solid#f2f2f2;
   border-radius: 50%;
   flex-shrink: 0;
+  color: #0065fc;
 }
 
 .span {
@@ -258,7 +262,7 @@ input.filter-checkbox:checked + label.filter-label {
   background-color: #f2f2f2;
   border-radius: 25px;
   padding: 15px 10px;
-  width: 65%;
+  width: 100%;
   margin-right: 25px;
   min-width: 500px;
 }
@@ -269,8 +273,8 @@ input.filter-checkbox:checked + label.filter-label {
 
 .card-c-right {
   min-height: 400px;
-  min-width: 320px;
-  max-width: 500px;
+  max-width: 0px;
+  min-width: 280px;
   width: 100%;
 }
 
@@ -294,12 +298,14 @@ input.filter-checkbox:checked + label.filter-label {
 }
 
 .card {
+  display: block;
   background-color: #fff;
   border: 5px solid #fff;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
-  min-width: 300px;
+  min-width: 240px;
+  color: black;
 }
 
 .x1 .card {
@@ -332,7 +338,7 @@ input.filter-checkbox:checked + label.filter-label {
 .img-fluid {
   height: 100%;
   object-fit: cover;
-  width: 170px;
+  width: 100px;
 }
 
 .list-card-2 {
@@ -372,6 +378,14 @@ input.filter-checkbox:checked + label.filter-label {
   overflow: hidden;
   border: 1px solid #f2f2f2;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
+}
+
+.card-2-two.large img {
+  height: 120px;
+}
+
+.card-2-two.small img {
+  height: 80px;
 }
 
 .type-2 {
@@ -476,7 +490,6 @@ input.filter-checkbox:checked + label.filter-label {
 }
 
 .footer ul li {
-  height: 27px;
   padding-top: 10px;
 }
 
@@ -497,6 +510,19 @@ input.filter-checkbox:checked + label.filter-label {
 @media screen and (max-width: 1000px) {
   .filter .line .filter-text {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .card-container {
+    min-width: initial;
+    width: 50%;
+  }
+
+  .card-container.card-c-right {
+    min-width: initial;
+    max-width: initial;
+    width: 50%;
   }
 }
 
@@ -523,7 +549,7 @@ input.filter-checkbox:checked + label.filter-label {
   }
 
   .img-fluid {
-    width: 150px;
+    width: 100px;
   }
 }
 
@@ -603,32 +629,29 @@ input.filter-checkbox:checked + label.filter-label {
 }
 
 @media only screen and (max-width: 610px) {
-  div.menu {
-    width: 100%;
-  }
 
   .listemenu {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     width: 100%;
   }
 
-  .logo {
-    padding-top: 10px;
-    justify-content: space-between;
-    width: 100%;
+  .menu ul li.logo-container {
+    width: calc(100% - 110px);
   }
-
-  .menu ul li {
-    flex-grow: 1;
+  .menu ul li.link {
+    order: 2;
     border-bottom: 3px solid #dcdcdc;
     width: 50%;
-    justify-content: center;
+  }
+
+  .menu ul li.link a {
+    text-align: center;
+    width: 100%;
   }
 
   .menu ul li.respons-big {
-    display: none;
+    order: 1;
   }
 
   .respons-big.submit {
@@ -646,10 +669,10 @@ input.filter-checkbox:checked + label.filter-label {
     border-radius: 10px 10px 10px 10px;
   }
 
-  .signup-icon {
+ /*.signup-icon {
     display: block;
     color: #0065fc;
-  }
+  }*/
 
   header div.line {
     flex-direction: column;
