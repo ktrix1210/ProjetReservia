@@ -306,6 +306,7 @@ input.filter-checkbox:checked + label.filter-label {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
   min-width: 240px;
   color: black;
+  text-decoration: none;
 }
 
 .x1 .card {
@@ -412,7 +413,8 @@ input.filter-checkbox:checked + label.filter-label {
 
 .card p {
   font-size: medium;
-  padding: 0 10px;
+  padding: 0px 10px;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
@@ -629,7 +631,6 @@ input.filter-checkbox:checked + label.filter-label {
 }
 
 @media only screen and (max-width: 610px) {
-
   .listemenu {
     display: flex;
     flex-wrap: wrap;
@@ -668,11 +669,6 @@ input.filter-checkbox:checked + label.filter-label {
     height: 3em;
     border-radius: 10px 10px 10px 10px;
   }
-
- /*.signup-icon {
-    display: block;
-    color: #0065fc;
-  }*/
 
   header div.line {
     flex-direction: column;
